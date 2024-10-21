@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="calcularora">
+        <input type="text" id="pantalla" disabled>
+        <br>
+        <input type="button" value="1" onclick="agregarpantalla(`1`)">
+        <input type="button" value="2" onclick="agregarpantalla(`2`)">
+        <input type="button" value="3" onclick="agregarpantalla(`3`)">
+        <input type="button" value="+" onclick="agregarpantalla(`+`)">
+        <br>
+        <input type="button" value="4" onclick="agregarpantalla(`4`)">
+        <input type="button" value="5" onclick="agregarpantalla(`5`)">
+        <input type="button" value="6" onclick="agregarpantalla(`6`)">
+        <input type="button" value="-" onclick="agregarpantalla(`-`)">
+        <br>
+        <input type="button" value="7" onclick="agregarpantalla(`7`)">
+        <input type="button" value="8" onclick="agregarpantalla(`8`)">
+        <input type="button" value="9" onclick="agregarpantalla(`9`)">
+        <input type="button" value="*" onclick="agregarpantalla(`*`)">
+        <br>
+        <input type="button" value="C" onclick="limpiarPAntalla()">
+        <input type="button" value="0" onclick="agregarpantalla(`0`)">
+        <input type="button" value="=" onclick="calcular()">
+        <input type="button" value="/" onclick="agregarpantalla(`/`)">
+    </div>
+</body>
+<script src="calculadora.js"></script>
+</html>

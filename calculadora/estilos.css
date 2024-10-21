@@ -1,0 +1,18 @@
+.calcularora{
+
+    width: 300px;
+    margin: 50px auto;
+    border: 2px solid rgb(0, 47, 255);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(212, 228, 43);
+
+}
+
+input[type="button"]{
+    width: 60PX;
+    height: 60PX;
+    margin: 5PX;
+    font-size: 20PX;
+    cursor: pointer;
+}
